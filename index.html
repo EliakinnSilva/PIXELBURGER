@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>HOME</title>
+	<link rel="icon" type="image/x-icon" href="../img/favicon_io/favicon.ico">
+	<style>
+   
+		body {
+			padding-top: 60px; /* altura do nav */
+		}
+		
+
+		header {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			background-color: #557deb;
+			box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+			padding: 10px;
+			z-index: 1000; /* para ficar acima dos outros elementos */
+		}
+		
+		nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+		nav.stilo ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+		
+		nav.stilo li {
+			float: left;
+		}
+		
+		nav.stilo li a {
+			display: block;
+			color: #0a0a0a;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		
+		nav.stilo li a:hover {
+  background: rgb(230, 238, 236);
+  background: linear-gradient(90deg, rgb(52, 156, 137) 11%, rgb(10, 128, 255) 35%, rgb(109, 150, 240) 100%);
+}
+
+	</style>
+</head>
+<body>
+	
+	<img src="../img/logo pixelburger.png" alt="logo">
+	
+		<h1>Bem-vindo à PixelBurger</h1>
+		<nav class="stilo" >
+
+			<ul>
+				<li><a href="#home">HOME</a></li>
+				<li><a href="#novidades">NOVIDADES</a></li>
+				<li><a href="#nossa-cozinha">NOSSA COZINHA</a></li>
+				<li><a href="#pedidos_online">PEDIDOS ONLINE</a></li>
+				<li><a href="#cardapio">CARDAPIO</a></li>
+				<li><a href="#localizacao-e-contato">LOCALIZAÇÃO E CONTATO</a></li>
+			</ul>
+		</nav>
+		  
+	
+	</header>
+
+	<main>
+		<section id="home">
+			<br>
+			<br>
+			<p>Experimente nossos deliciosos hambúrgueres e acompanhamentos</p>
+			<a href="#pedidos_online" class="botao">FAÇA SEU PEDIDO ONLINE</a>
+		
+		</section>
+
+		<section id="nossa-cozinha">
+			<h2>Nossa Cozinha</h2>
+			<p>Conheça nossos deliciosos pratos preparados com ingredientes selecionados</p>
+			<img src="cozinha.jpg" alt="Foto da nossa cozinha">
+		</section>
+
+		<section id="pedidos-online">
+			<h2>Pedidos Online</h2>
+			<p>Faça seu pedido online e receba na comodidade da sua casa</p>
+			<a href="https://www.pedidosonline.com.br/hamburgueria" class="botao">FAÇA SEU PEDIDO ONLINE</a>
+		</section>
+		<section id="cardapio">
+			<h2>Cardápio</h2>
+			<div class="cardapio-item">
+				<img src="hamburguer1.jpg" alt="Foto do hambúrguer 1">
+				<h3>Hambúrguer 1</h3>
+				<p>Descrição do hambúrguer 1</p>
+			</div>
+	   <div class="cardapio-item">
+				<img src="hamburguer2.jpg" alt="Foto do hambúrguer 2">
+				<h3>Hambúrguer 2</h3>
+				<p>Descrição do hambúrguer 2</p>
+			</div
+		 class="cardapio-item">
+			<img src="hamburguer3.jpg" alt="Foto do hambúrguer 3">
+			<h3>Hambúrguer 3</h3>
+			<p>Descrição do hambúrguer 3</p>
+		</div>
+		<div class="cardapio-item">
+			<img src="acompanhamento1.jpg" alt="Foto do acompanhamento 1">
+			<h3>Acompanhamento 1</h3>
+			<p>Descrição do acompanhamento 1</p>
+		</div>
+		<div class="cardapio-item">
+			<img src="acompanhamento2.jpg" alt="Foto do acompanhamento 2">
+			<h3>Acompanhamento 2</h3>
+			<p>Descrição do acompanhamento 2</p>
+		</div>
+		<div class="cardapio-item">
+			<img src="bebida1.jpg" alt="Foto da bebida 1">
+			<h3>Bebida 1</h3>
+			<p>Descrição da bebida 1</p>
+		</div>
+		<div class="cardapio-item">
+			<img src="bebida2.jpg" alt="Foto da bebida 2">
+			<h3>Bebida 2</h3>
+			<p>Descrição da bebida 2</p>
+		</div>
+	</section>
+	<section id="localizacao-e-contato">
+		<h2>Localização e Contato</h2>
+		<div class="localizacao">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.816698894378!2d-34.852133999999985!3d-8.01782949999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab22a4a61494b5%3A0xf9b39af7ce73b59a!2sR.%20de%20S%C3%A3o%20Bento%2C%20170%20-%20Carmo%2C%20Olinda%20-%20PE%2C%2053020-080!5e0!3m2!1spt-BR!2sbr!4v1683659578769!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+		<div class="contato">
+			<p>Telefone: (81) 997096592</p>
+			<p>E-mail: contato@pixelburger.com.br</p>
+			<p>Endereço: Rua de São Bento, 170 - Carmo, Olinda - PE</p>
+		</div>
+	</section>
+</main>
+</body>
+</html>
+
